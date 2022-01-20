@@ -4,7 +4,8 @@
   "description": "Join this best gym",
   "main": "backup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start" : "node backup.js"
   },
   "author": "abhi",
   "license": "ISC",
