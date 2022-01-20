@@ -1,0 +1,16 @@
+extends base.pug
+block style
+            style 
+                include ../static/constyle.css
+                include ../static/styles.css
+block content
+    .container
+        h1 Contact Us
+        form(action="/contact" method="post" class="myinput") 
+            input(type="name" placeholder="Enter Your Name" name="name")
+            input(type="text" placeholder="Enter Your Place" name="place")
+            input(type="number" placeholder="Enter Your Age" name="age")
+            input(type="text" placeholder="Enter Your Gender" name="gender")
+            input(type="phone" placeholder="Enter Your Phone Number" name="phone")
+            input(type="email" placeholder="Enter Your E-mail" name="email")
+            button(class="btn") Submit

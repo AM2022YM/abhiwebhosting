@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    background-color: rgb(54, 2, 2);
+    height: 80px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    margin-top: 25px;
+}
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: silver;
+    font-family: cursive;
+}
+a:hover{
+    color: cornsilk;
+    text-decoration: underline;
+}
+.section1{
+    height: 500px;
+    background: center/cover url('../static/dance.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.section1 h1{
+    color: white;  
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 10px 10px 5px black;
+    font-family: monospace;
+}
+h2{
+    color:black;  
+    text-align: center; 
+}
+.section2{
+    background-color: rgb(46, 29, 6);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: rgb(253, 245, 228);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 30%;
+    /* margin-top: 20px; */
+}
+
+.insec h1{
+    color:white;  
+    text-align: center; 
+    padding: 50px;
+    font-family: monospace;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.content img{
+    height: 150px;
+    width: 150px;
+    filter: saturate(2);
+    margin: 20px auto;
+
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
+.section3{
+    background-color:lightcoral;
+    height: 200px;
+    align-items: center;
+    padding: 20px;
+}
+.section3 h1{
+    font-family: monospace;
+    text-align: center;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+
+}
+footer{
+    color: blue;
+    background-color: rgb(26, 12, 2);
+    text-align: center;
+}

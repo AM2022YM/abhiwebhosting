@@ -1,0 +1,32 @@
+.container{
+height: 80vh;
+padding-top: 20px;
+background-color: lavender;
+}
+.myinput{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto;
+}
+input{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+h1{
+    color: rgb(61, 31, 133);
+    text-align: center;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    width: 100px;
+    margin: 2px auto;
+    cursor: pointer;
+    background-color: rgb(39, 17, 92);
+    color: cornsilk;
+    border-radius: 6px;
+}
